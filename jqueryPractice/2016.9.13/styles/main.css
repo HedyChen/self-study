@@ -1,0 +1,461 @@
+*{
+	margin: 0 auto;
+}
+#header{
+	height: 105px;
+	background: url("../images/headerbg.png") repeat-x scroll 0 0 #FFFFFF;
+}
+#header .contentWidth{
+	position: relative;
+	width: 990px;
+	height: 105px;
+	margin: 0 auto;
+	z-index: 100;
+}
+#header .logo{
+	float: left;
+	margin: 0 0 0 10px;
+	color: #FFF;
+	line-height: 80px;
+}
+#header .search{
+	left: 198px;
+	top: 10px;
+	position: absolute;
+}
+#inputSerch{
+	width: 170px;
+	height: 25px;
+}
+.search a{
+	position: relative;
+	top: 5px;
+	left: -50px;
+}
+
+#skin{
+	float: right;
+	margin: 10px;
+	perspective: 4px;
+	width: 120px;
+}
+#skin li{
+	margin-right: 4px;
+	width: 15px;
+	height: 15px;
+	display: block;
+	overflow: hidden;
+	text-indent: -9999px;
+	cursor: pointer;
+	float: left;
+	background-image:url("../images/theme.gif");
+	
+}
+#skin_0{background-position: 0px 0px;}
+#skin_1{background-position: 15px 0px;}
+#skin_2{background-position: 35px 0px;}
+#skin_3{background-position: 55px 0px;}
+#skin_4{background-position: 75px 0px;}
+#skin_5{background-position: 95px 0px;}
+#skin_0.selected{background-position: 0px 15px;}
+#skin_1.selected{background-position: 15px 15px;}
+#skin_2.selected{background-position: 35px 15px;}
+#skin_3.selected{background-position: 55px 15px;}
+#skin_4.selected{background-position: 75px 15px;}
+#skin_5.selected{background-position: 95px 15px;}
+.navgation{
+	position: absolute;
+	top: 68px;
+	left: 0;
+	height: 37px;
+	line-height: 37px;
+	width: 990px;
+	z-index: 100;
+}
+.navgation #nav{
+	display: inline;
+	float: left;
+	margin-left: 25px;
+}
+.navgation ul li{
+	float: left;
+	display: inline;
+	margin-left: 14px;
+	position: relative;
+	z-index: 100;
+}
+.navgation ul li a{
+	display: block;
+	padding: 0 8px;
+	font-weight: 700;
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+}
+.jnNav{
+	border: 1px solid #B1B1B1;
+	border-top: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 37px;
+	left: 0;
+	width: 400px;
+	z-index: 100;
+	display: none;
+}
+.jnNav .subitem{
+	float: left;
+	height: auto !impotant;
+	min-height: 100px;
+	padding: 10px 12px;
+	width: 380px;
+}
+.jnNav .subitem dl{
+	border-top: 1px dashed #C4C4C;
+	overflow: hidden;
+	padding: 8px 0;
+	float: left;
+}
+.jnNav .subitem dt{
+	float: left;
+	font-weight: bold;
+	line-height: 16px;
+	padding: 4px 3px;
+	text-align: center;
+	width: 60px;
+}
+.jnNav .subitem dd{
+	float: left;
+	overflow: hidden;
+	padding: 0;
+	width: 310px;
+}
+.jnNav .subitem dd span{
+	display: block;
+	float: left;
+    font-size: 14px;
+}
+#content{
+	clear: left;
+	margin: 0 auto;
+	position: relative;
+	width: 990px;
+}
+.janeshop{
+	height:560px;
+	overflow: hidden;
+	padding: 10px 0;
+	
+}
+#jnCatalog{
+	float: left;
+	height: 560px;
+	margin: 0 11px 0 0;
+	overflow: hidden;
+	position: relative;
+	width: 187px;
+}
+#jnImageroll{
+	float: left;
+	height: 320px;
+	margin: 0 11px 0 0;
+	overflow: hidden;
+	position: relative;
+	width: 550px;
+}
+#jnNotice{
+	float: left;
+	height: 320px;
+	overflow: hidden;
+	width:230px;
+}
+#jnBrand{
+	float: left;
+	width: 790px;
+	height:230px;
+	margin: 10px 0 0;
+	overflow: hidden;
+}
+#jnCatalog{
+	float: left;
+	height: 560px;
+	margin: 0 11px 0 0;
+	overflow: hidden;
+	width: 187px;
+	border-bottom: 1px solid #6e6e6e;
+}
+#jnCatalog h2{
+height: 30px;
+line-height: 30px;
+color: #fff;
+font-size: 16px;
+text-indent: 13px;
+}
+.jnCatainfo{
+	border: 1px solid #6e6e6e;
+	border-width: 0 1px 0 1px ;
+	height: 128px;
+	overflow: hidden;
+	padding: 5px 10px 0;
+	width: 165px;
+}
+
+.jnCatainfo h3{
+	height: 24px;
+	line-height: 24px;
+	width: 164px;
+	font-size: 16px;
+	border-bottom: 1px solid #eeeeee;
+}
+.jnCatainfo ul{
+	float: left;
+	padding: 0 2px 8px;
+}
+.jnCatainfo li{
+	color: #aeadae;
+	float: left;
+	height: 24px;
+	line-height: 24px;
+	width: 79px;
+	overflow: hidden;
+	font-size: 14px;
+	position: relative;
+}
+.jnCatainfo li a{
+	color: #444444;
+	text-decoration: none;
+}
+.jnCatainfo li a:hover{
+	color: #008cd7;
+}
+.jnCatainfo li a.promoted{
+	color: #f9044e;
+}
+#jnImageroll{
+	float: left;
+	height: 320px;
+	margin: 0 11px 0 0;
+	overflow: hidden;
+	position: relative;
+	width: 550px;
+}
+#jnImageroll img{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#jnImageroll div{
+	bottom: 0;
+	overflow: hidden;
+	position: absolute;
+	float: left;
+}
+#jnImageroll div a{
+	background:#444444;
+	color: #ffffff;
+	display: inline-block;
+	float: left;
+	height: 32px;
+	margin-right: 1px;
+	overflow: hidden;
+	padding: 5px 15px;
+	text-align: center;
+	width: 79px;
+	font-size: 12px;
+	text-decoration: none;
+}
+#jnImageroll div a:hover{
+	color: #008cd7;
+}
+#jnImageroll div a p{
+	cursor: pointer;
+	height: 16px;
+	width: 79px;
+	overflow: hidden;
+}
+#jnImageroll div #last{
+	margin: 0;
+	width: 80px;
+}
+#jnNotice{
+	float: left;
+	height: 321px;
+	width: 230px;
+	overflow: hidden;
+}
+#jnMiaosha{
+	float: left;
+	width: 230px;
+	height: 176px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+#jnNoticeInfo{
+	float: left;
+	width: 228px;
+	height: 133px;
+	overflow: hidden;
+	border: 1px solid #dfdfdf;
+}
+#jnNoticeInfo h2{
+	height: 23px;
+	text-indent: 13px;
+	line-height: 23px;
+	border-bottom: 1px solid #dfdfdf;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 6px;
+}
+##jnNoticeInfo ul{
+	float: left;
+	padding: 6px 0px 2px 12px;
+}
+#jnNoticeInfo ul li{
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+}
+#jnNoticeInfo ul li a{
+   color: #666666;
+   text-decoration: none;
+   font-size: 12px;
+}
+#jnNoticeInfo ul li a:hover{
+	color: #008cd7;
+}
+#jnBrand{
+	float:left;
+	width: 790px;
+	height: 230px;
+	margin: 10px 0 0;
+	overflow: hidden;
+}
+#jnBrandTab{
+	float: left;
+	height: 29px;
+    width: 790px;
+    position: relative;
+    border-bottom: 1px solid #4e4e4e;
+}
+#jnBrandTab h2{
+	height: 29px;
+	width: 100px;
+	line-height: 29px;
+	position: absolute;
+	left: 0;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+}
+#jnBrandTab ul{
+	position: absolute;
+	right: 0;
+	top: 5px;
+}
+#jnBrandTab ul li{
+	float: left;
+	margin: 0 10px 0 0;
+	list-style: none;
+}
+#jnBrandTab ul li a{
+	background: #e4e4e4;
+	color: #fff;
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 10px;
+	font-size: 14px;
+	text-decoration: none;
+}
+#jnBrandTab ul li a:hover{
+	color: #008cd7;
+}
+#jnBrandContent{
+	float: left;
+	height: 188px;
+	width: 790px;
+	margin: 10px 5px;
+	position: relative;
+	overflow: hidden;
+}
+#jnBrandList{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 3200px;
+}
+#jnBrandList ul{
+	margin-left: -40px;
+}
+#jnBrandList li{
+	float: left;
+	width: 185px;
+	height: 188px;
+	position: relative;
+	padding: 0 5px;
+	overflow: hidden;
+}
+#jnBrandList li img{
+    position:absolute;
+    left: 5px;
+    top: 0;
+}
+#jnBrandList li span{
+    bottom: 0;
+    display: block;
+    font-size: 14px;
+    height: 24px;
+    width: 183px;
+    text-align: center;
+    line-height: 24px;
+    position: absolute;
+    overflow: hidden;
+}
+#jnBrandList li a{
+	color:#fff;
+	text-decoration: none;
+}
+#jnBrandList li a:hover{
+	color: #008cd7;
+}
+#footer p{
+	width: 990px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	color: #B0B0B0;
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#jnProitem{
+	width: 312px;
+	height: 560px;
+	float: left;
+	background: #6EF1BD;
+}
+#jnDetails{
+	float: left;
+	width: 468px;
+	height: 560px;
+	margin-left: 10px;
+	overflow: hidden;
+	background: #EA4CF6;
+}
